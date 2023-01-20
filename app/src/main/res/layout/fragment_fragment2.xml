@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/fragment2color"
+    tools:context=".ui.fragment2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fragment 2"
+        android:textSize="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="320dp" />
+
+    <TextView
+        android:id="@+id/dataFrom1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="16sp"/>
+
+
+</LinearLayout>

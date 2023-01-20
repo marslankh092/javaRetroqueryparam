@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:layout_margin="7dp"
+    android:id="@+id/detailBtn">
+
+    <ImageView
+        android:id="@+id/poster"
+        android:layout_width="120dp"
+        android:layout_height="120dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@+id/poster"
+        android:text="Title"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_margin="5dp"
+        android:layout_toEndOf="@+id/poster"
+        android:text="Detail"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/poster"
+        android:text="Delete"
+        android:layout_below="@id/detail"
+        android:layout_margin="5dp"/>
+
+    <Button
+        android:id="@+id/updateBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/deleteBtn"
+        android:text="Update"
+        android:layout_below="@id/detail"
+        android:layout_margin="5dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginHorizontal="7dp"
+        android:layout_below="@id/poster"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>
